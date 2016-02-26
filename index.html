@@ -9,7 +9,7 @@ title: 开场序曲
          
         <br>
 
-        <div class='category'>
+        <div class="category">
 	       <ul>
        
               {% for category in site.categories %}
@@ -21,6 +21,7 @@ posts">{{ category | first }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 </ul>
 </div>
            
+      
      
 
 
@@ -59,7 +60,13 @@ posts">{{ category | first }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
  
       </section>
       <footer>
+             <div class="tag">
 
+
+          {% for tag in site.tags %}
+                <font color="black" size="5" face="STFangsong">{{tag[0]}}</font>
+          {% endfor %}
+      </div>
       <DIV id=time>当前时间  
 <SCRIPT>document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());setInterval("document.getElementById('time').innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);</SCRIPT>  
 </DIV>  
