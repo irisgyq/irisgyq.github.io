@@ -16,7 +16,7 @@ title: Iris's blog
 	       <ul>
        
               {% for category in site.categories %}
-              <li><a href="categories{{ category | first }}/" title="view all
+              <li><a href="{{ category | first }}/" title="view all
 posts">{{ category | first }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;({{ category | last | size }})</a>
     </li>
     <br>
@@ -32,7 +32,7 @@ posts">{{ category | first }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
       <section>
 
 
-           <h2><a href="./2016/02/25/hello-world.html">开场序曲</a></h2>
+           <h2><a href="./2016/02/27/hello-world.html">开场序曲</a></h2>
 
            <hr>
 
@@ -58,7 +58,7 @@ posts">{{ category | first }}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n
 
  <p>我也希望每一个看到我这些文字的人，可以给自己多些时间，看本书、看部电</p>
  
- <a class="anchor" href="./2016/02/25/hello-world.html">Read more</a>
+ <a class="anchor" href="./2016/02/27/hello-world.html">Read more</a>
  
  
       </section>
