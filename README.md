@@ -6,10 +6,14 @@
 
 实在是不想在一个地方写一点，不满意就又跑到另一个地方。所以自定义度高的博客是我最好的选择啦！
 
-你可以通过访问 [www.irisgyq.info](www.irisgyq.info) 查看我的博客~
 
+<<<<<<< HEAD
 
 Iris
 
 2016年2月26日
+=======
+## Iris
+## 2016年2月26日
+>>>>>>> parent of 122f4ac... revise readme
 
